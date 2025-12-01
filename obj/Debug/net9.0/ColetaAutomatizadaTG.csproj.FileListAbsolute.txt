@@ -1,0 +1,6 @@
+C:\Projetos\ColetaAutomatizadaTG\ColetaAutomatizadaTG\obj\Debug\net9.0\ColetaAutomatizadaTG.csproj.AssemblyReference.cache
+C:\Projetos\ColetaAutomatizadaTG\ColetaAutomatizadaTG\obj\Debug\net9.0\ColetaAutomatizadaTG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\ColetaAutomatizadaTG\ColetaAutomatizadaTG\obj\Debug\net9.0\ColetaAutomatizadaTG.AssemblyInfoInputs.cache
+C:\Projetos\ColetaAutomatizadaTG\ColetaAutomatizadaTG\obj\Debug\net9.0\ColetaAutomatizadaTG.AssemblyInfo.cs
+C:\Projetos\ColetaAutomatizadaTG\ColetaAutomatizadaTG\obj\Debug\net9.0\ColetaAutomatizadaTG.csproj.CoreCompileInputs.cache
+C:\Projetos\ColetaAutomatizadaTG\ColetaAutomatizadaTG\obj\Debug\net9.0\ColetaAutomatizadaTG.sourcelink.json
