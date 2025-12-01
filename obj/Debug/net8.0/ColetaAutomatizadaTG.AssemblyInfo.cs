@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ColetaAutomatizadaTG")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6e60f0f65934c382d2085c08374cbfdcab61c11")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b87d26758e9c2a1ead991a1c0f642439ee137624")]
 [assembly: System.Reflection.AssemblyProductAttribute("ColetaAutomatizadaTG")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ColetaAutomatizadaTG")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

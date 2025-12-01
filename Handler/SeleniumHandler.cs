@@ -20,7 +20,6 @@ public class SeleniumHandler : ISeleniumHandler
 
         var options = new ChromeOptions();
 
-        // Como está rodando como serviço, é MUITO mais estável usar headless
         //options.AddArgument("--headless=new");
         options.AddArgument("--window-size=1920,1080");
         options.AddArgument("--disable-gpu");
@@ -40,12 +39,10 @@ public class SeleniumHandler : ISeleniumHandler
 
             var wait = new WebDriverWait(_driver, TimeSpan.FromSeconds(15));
 
-            // 1) Esperar o iframe do formulário PTAX e já dar o SwitchTo nele
             wait.Until(drv =>
             {
                 try
                 {
-                    // pega o iframe que contém "consultaBoletim" no src
                     var iframe = drv.FindElements(By.TagName("iframe"))
                                     .FirstOrDefault(f =>
                                         (f.GetAttribute("src") ?? "")
@@ -137,7 +134,7 @@ public class SeleniumHandler : ISeleniumHandler
         }
         catch
         {
-            // ignora erros de fechamento
+
         }
     }
 

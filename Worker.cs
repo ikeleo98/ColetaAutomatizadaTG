@@ -61,7 +61,6 @@ public class Worker : BackgroundService
                             pasta,
                             $"Cotacoes_{dataExecucao:yyyyMMdd}_{moedaSanitizada}.xlsx");
 
-
                         var cotacoes = _seleniumHandler.ObterCotacoesAsync(parametro.DataInicial, parametro.DataFinal, parametro.TipoMoeda);
 
                         _excelExporter.ExportarCotacoesParaExcel(cotacoes, caminho);

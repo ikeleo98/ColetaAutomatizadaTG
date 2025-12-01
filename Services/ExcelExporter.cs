@@ -26,7 +26,6 @@ public class ExcelExporter : IExcelExporter
             planilha.Cell(1, 1).Value = "Data";
             planilha.Cell(1, 2).Value = "Valor de Compra";
             planilha.Cell(1, 3).Value = "Valor de Venda";
-            planilha.Cell(1, 4).Value = "Moeda";
 
             var cabecalho = planilha.Range(1, 1, 1, 4);
             cabecalho.Style.Font.Bold = true;
@@ -60,8 +59,6 @@ public class ExcelExporter : IExcelExporter
                 {
                     planilha.Cell(linha, 3).Value = c.ValorVenda;
                 }
-
-                planilha.Cell(linha, 4).Value = c.TipoMoeda;
 
                 linha++;
             }
